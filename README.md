@@ -3,4 +3,4 @@ Este Repositório Hospeda um Aplicativo de Simulação dos Operadores Lógicos (
 ## Author
 Andrew Dantas
 ## APP
-![qrcode]()
+![qrcode](https://github.com/andrewdantas/simulador/blob/main/img/qrcode.png)
