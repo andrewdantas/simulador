@@ -1,0 +1,13 @@
+{
+    "name": "Simulador",
+    "start_url": "/simulador",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/simulator.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
