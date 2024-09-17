@@ -21,18 +21,22 @@ header h1 {
 /*  MENU  */
 nav {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
     background-color: #E15A1F;
     overflow: hidden;
+    justify-content: center;
 }
 
 nav ul li {
-    float: left;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -46,7 +50,22 @@ nav ul li a:hover {
     background-color: #CC470D;
 }
 
-/*RODAPÉ*/
+
+/* CONTAINER */
+.container {
+    margin: 50px 10px;
+    text-align: center;
+}
+
+#sw1 {
+    float: left;
+}
+
+#sw2 {
+    float: right;
+}
+
+/* RODAPÉ */
 footer {
     width: 100%;
     background-color: #CC470D;
@@ -54,4 +73,11 @@ footer {
     padding: 5px 0px;
     font-size: .9em;
     text-align: center;
+}
+
+/* LAYOUT RESPONSIVO TELAS COM RESOLUÇÃO SUPERIOR A 576 PX */
+@media (min-width: 576px) {
+#sw1, #sw2 {
+    float: none;
+}
 }
