@@ -38,7 +38,7 @@ function sw(receive) {
         let beep = new Audio()
         beep.src = "glassbreaking.wav"
         beep.play()
-        document.getElementById("lamp").src = "Img/broken.jpg"
+        document.getElementById("lamp").src = "img/broken.jpg"
         broken = true
     }
 
